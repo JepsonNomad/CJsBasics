@@ -4,7 +4,7 @@
 \alias{showCols}
 \title{Add a simple ggplot theme}
 \usage{
-showCols(cl = colors(), bg = "grey", cex = 0.75, rot = 30)
+showCols(cl = colors(), bg = "transparent", cex = 3, rot = 20)
 }
 \value{
 Plot of colors in vector
