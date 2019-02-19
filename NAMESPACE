@@ -2,4 +2,5 @@
 
 export(BasicTheme)
 export(KellyCols)
+export(showCols)
 import(ggplot2)
