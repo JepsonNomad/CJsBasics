@@ -4,7 +4,7 @@
 \name{BasicTheme}
 \alias{BasicTheme}
 \title{Add a simple ggplot theme}
-\format{An object of class \code{theme} (inherits from \code{gg}) of length 61.}
+\format{An object of class \code{theme} (inherits from \code{gg}) of length 93.}
 \usage{
 BasicTheme
 }
