@@ -3,8 +3,10 @@
 \docType{data}
 \name{EmptyTheme}
 \alias{EmptyTheme}
-\title{Add an empty ggplot theme}
-\format{An object of class \code{theme} (inherits from \code{gg}) of length 93.}
+\title{A ggplot theme that will make all background elements transparent}
+\format{
+An object of class \code{theme} (inherits from \code{gg}) of length 6.
+}
 \usage{
 EmptyTheme
 }
@@ -12,6 +14,6 @@ EmptyTheme
 Simple ggplot theme
 }
 \description{
-Add a simple ggplot theme
+A ggplot theme that will make all background elements transparent
 }
 \keyword{datasets}

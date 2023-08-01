@@ -4,7 +4,9 @@
 \name{KellyCols}
 \alias{KellyCols}
 \title{Kelly colors of maximum contrast}
-\format{An object of class \code{character} of length 22.}
+\format{
+An object of class \code{character} of length 22.
+}
 \usage{
 KellyCols
 }

@@ -4,6 +4,7 @@
 #' @import ggplot2
 #' @export
 # version 0.0.1
+requireNamespace("ggplot2")
 
 BasicTheme <- theme_classic() + 
   theme(axis.line.x = element_line(color="black", size = 1),

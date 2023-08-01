@@ -4,7 +4,9 @@
 \name{ndviCols}
 \alias{ndviCols}
 \title{Colors for NDVI plotting}
-\format{An object of class \code{character} of length 9.}
+\format{
+An object of class \code{character} of length 9.
+}
 \usage{
 ndviCols
 }
