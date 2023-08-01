@@ -1,7 +1,7 @@
 Package: CJsBasics
 Title: Common functions I use
 Version: 0.1
-Authors@R: person("Christian", "John", email = "cjohn@ucdavis.edu", role = c("aut", "cre"))
+Authors@R: person("Christian", "John", email = "cjohn@ucsb.edu", role = c("aut", "cre"))
 Description: This includes common functions I use
 Depends: R (>= 3.1.0)
 License: MIT
