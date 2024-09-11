@@ -4,7 +4,7 @@
 #' @export
 # version 0.0.1
 
-se() <- function(x,...){
+se <- function(x,...){
   sd(x, ...)/sqrt(length(x))
 }
 
