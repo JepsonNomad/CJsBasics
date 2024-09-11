@@ -4,7 +4,7 @@
 #' @export
 # version 0.0.1
 
-cv <- function(x,...){
+cv() <- function(x,...){
   sd(x)/mean(x)
 }
 
