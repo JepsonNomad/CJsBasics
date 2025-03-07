@@ -1,10 +1,10 @@
 #' Make a vector of asterisk strings for indicating p values
 #'
-#' @return vector
+#' @return vector of asterisks
 #' @export
 # version 0.0.1
 
-pStars = function(x, addSpace = FALSE){
+pStars <- function(x, addSpace = FALSE){
   if(addSpace){
     ifelse(x > 0.1,
            "",

@@ -7,7 +7,7 @@
 pStars(x, addSpace = FALSE)
 }
 \value{
-vector
+vector of asterisks
 }
 \description{
 Make a vector of asterisk strings for indicating p values
