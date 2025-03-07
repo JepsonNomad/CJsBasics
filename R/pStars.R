@@ -6,7 +6,7 @@
 
 pStars <- function(x, addSpace = FALSE){
   if(addSpace){
-    ifelse(x > 0.1,
+    y = ifelse(x > 0.1,
            "",
            ifelse(x > 0.05,
                   " .",
@@ -16,7 +16,7 @@ pStars <- function(x, addSpace = FALSE){
                                 " **",
                                 " ***"))))
   }else{
-    ifelse(x > 0.1,
+    y = ifelse(x > 0.1,
            "",
            ifelse(x > 0.05,
                   ".",
@@ -26,4 +26,7 @@ pStars <- function(x, addSpace = FALSE){
                                 "**",
                                 "***"))))
   }
+  return(y)
 }
+
+# pStars(c(0.00002, 0.005, 0.016,0.08,0.12))
